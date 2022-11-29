@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: scikit-cmeans
+Version: 0.1
+Summary: Flexible, extensible fuzzy c-means clustering in python.
+Home-page: https://bm424.github.io/scikit-cmeans/
+Author: Ben Martineau
+Author-email: bm424@cam.ac.uk
+License: MIT
+Keywords: clustering cluster fuzzy classifier classifiers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
+UNKNOWN
+
+

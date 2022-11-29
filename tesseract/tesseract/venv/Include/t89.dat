@@ -1,0 +1,6 @@
+enqueue(dog)
+enqueue(Mimi)
+enqueue(cat,	Tiger, 1)
+dequeue(1)
+dequeueAny(elephant)
+dequeue(dog)

@@ -1,0 +1,27 @@
+# list one
+parents_childs = [
+  “John”,	“Mary”,
+  “Elma”, 	“Hank”,
+  “Ann”, “Mary”,  
+  “David”, “John”,	 
+  “Hank”, “Edward”,
+  “Ann”, “Lisa”,
+  “Elma”, “Ann”,
+  “John”, “Lisa”
+]
+# queries for list 1
+is_ancestor(parents_childs, “Elma”, “Lisa”)
+is_ancestor(parents_childs,	“David”,  “Lisa”)
+is_ancestor(parents_childs, “David”, “Edward”)
+is_ancestor(parents_childs, “Hank”, “Mary”)
+# list 2
+pcs = [
+  “Eliza”, “Sophia”,
+  “Albert”, “Sophia”,
+  “Sophia”, “Blake”
+]
+# queries for list 2
+is_ancestor(pcs, “Albert”, “Blake”)
+# queries for list 1
+is_ancestor(parents_childs, “John”, “Lisa”)
+is_ancestor(parents_childs, “David”, “Ann”)
